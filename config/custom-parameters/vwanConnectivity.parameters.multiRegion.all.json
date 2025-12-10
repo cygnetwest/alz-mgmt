@@ -41,9 +41,9 @@
     "parVirtualWanHubs": {
       "value": [
         {
-          "parVpnGatewayEnabled": true,
-          "parExpressRouteGatewayEnabled": true,
-          "parAzFirewallEnabled": true,
+          "parVpnGatewayEnabled": false,
+          "parExpressRouteGatewayEnabled": false,
+          "parAzFirewallEnabled": false,
           "parVirtualHubAddressPrefix": "10.100.0.0/23",
           "parHubLocation": "australiaeast",
           "parHubRoutingPreference": "ExpressRoute",
@@ -59,16 +59,16 @@
             "3"
           ],
           "parSidecarVirtualNetwork": {
-            "sidecarVirtualNetworkEnabled": true,
+            "sidecarVirtualNetworkEnabled": false,
             "addressPrefixes": [
               "10.101.0.0/24"
             ]
           }
         },
         {
-          "parVpnGatewayEnabled": true,
-          "parExpressRouteGatewayEnabled": true,
-          "parAzFirewallEnabled": true,
+          "parVpnGatewayEnabled": false,
+          "parExpressRouteGatewayEnabled": false,
+          "parAzFirewallEnabled": false,
           "parVirtualHubAddressPrefix": "10.200.0.0/23",
           "parHubLocation": "",
           "parHubRoutingPreference": "ExpressRoute",
@@ -84,7 +84,7 @@
             "3"
           ],
           "parSidecarVirtualNetwork": {
-            "sidecarVirtualNetworkEnabled": true,
+            "sidecarVirtualNetworkEnabled": false,
             "addressPrefixes": [
               "10.201.0.0/24"
             ]

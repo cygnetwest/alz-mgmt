@@ -139,7 +139,7 @@
       "value": []
     },
     "parVpnGatewayEnabled": {
-      "value": true
+      "value": false
     },
     "parVpnGatewayConfig": {
       "value": {
